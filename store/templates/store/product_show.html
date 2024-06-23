@@ -1,0 +1,17 @@
+{% extends './partials/base.html' %}
+{% block content %}
+<div class="row d-flex align-items-center justify-content-center">
+    <div class="col-md-4">
+        <img src="{{product.image.url}}" alt="">
+    </div>
+
+    <div class="col-md-4">
+        {{product.name}}
+    </div>
+
+
+    <div class="col-md-4">
+        {{product.price}}
+    </div>
+</div>
+{% endblock content %}
