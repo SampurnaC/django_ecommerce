@@ -4,4 +4,7 @@ store/migrations/__pycache__
 db.sqlite3
 django_ecommerce/__pycache__
 uploads/
-accounts/
+accounts/__pycache__
+accounts/migrations/__pycache__/
+cart/__pycache__/
+cart/migrations/__pycache__/
